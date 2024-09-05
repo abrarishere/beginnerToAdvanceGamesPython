@@ -5,8 +5,8 @@ Welcome to the **Beginner to Advanced Python Games** repository! This project in
 ## Games Included
 
 1. **2048**: The popular sliding tile puzzle game.
-2. **Hangman**: A word-guessing game with two variations - one for single words and one for sentences.
-3. **Tic Tac Toe**: The classic two-player game.
+1. **Hangman**: A word-guessing game.
+1. **Tic Tac Toe**: The classic two-player game.
 
 ## Repository Structure
 
@@ -15,12 +15,9 @@ beginnerToAdvanceGamesPython
 ├── 2048
 │   └── main.py
 ├── README.md
-├── hangmans
-│   ├── hangman_sentence
-│   │   └── main.py
-│   └── hangman_word
-│       ├── main.py
-│       └── text.txt
+├── hangman_word
+│   └── text.txt
+│   └── main.py
 └── tictac
     ├── explanation.md
     └── main.py
@@ -29,11 +26,13 @@ beginnerToAdvanceGamesPython
 ### Game Descriptions
 
 #### 2048
+
 A sliding tile puzzle game where the objective is to combine tiles with the same number to create a tile with the number 2048.
 
 **Path**: `2048/main.py`
 
 To run the game:
+
 ```sh
 python 2048/main.py
 ```
@@ -43,29 +42,22 @@ python 2048/main.py
 **Hangman Word**:
 A classic word-guessing game where the player guesses letters to reveal a hidden word.
 
-**Path**: `hangmans/hangman_word/main.py`
+**Path**: `hangman_word/main.py`
 
 To run the game:
+
 ```sh
-python hangmans/hangman_word/main.py
-```
-
-**Hangman Sentence**:
-A variation of Hangman where the player guesses letters to reveal a hidden sentence.
-
-**Path**: `hangmans/hangman_sentence/main.py`
-
-To run the game:
-```sh
-python hangmans/hangman_sentence/main.py
+python hangman_word/main.py
 ```
 
 #### Tic Tac Toe
+
 The classic two-player game where players take turns marking a 3x3 grid to achieve three marks in a row, column, or diagonal.
 
 **Path**: `tictac/main.py`
 
 To run the game:
+
 ```sh
 python tictac/main.py
 ```
@@ -92,6 +84,6 @@ Feel free to contribute to this project by opening issues or submitting pull req
 
 For any questions or suggestions, please open an issue or contact the repository owner.
 
----
+______________________________________________________________________
 
 Enjoy playing and learning with these Python games!
